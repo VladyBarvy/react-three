@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --force"
+    "deploy": "gh-pages -d dist -u origin"
   },
   "dependencies": {
     "axios": "^1.7.9",
